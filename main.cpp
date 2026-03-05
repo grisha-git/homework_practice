@@ -38,5 +38,14 @@ T* merge(const T* a, size_t sa, const T* b, size_t sb, T* c)
 
 int main()
 {
-
+  int a[] = {11, 3, 4, 15};
+  int b[] = {12, 13, 6, 3, 20};
+  size_t sa = 4;
+  size_t sb = 5;
+  int c[9];
+  merge(a, sa, b, sb, c);
 }
+
+//Неявный интерфейс
+//Оператор копирующего присваивания
+//Деструктор
